@@ -7,7 +7,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background" id="about">
       <Navigation />
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4">
