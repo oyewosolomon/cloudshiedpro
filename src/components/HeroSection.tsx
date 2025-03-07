@@ -5,7 +5,7 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <section className="pt-24 pb-16 md:pt-32 md:pb-24">
+    <section className="h-screen pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
