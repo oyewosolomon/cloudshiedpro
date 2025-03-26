@@ -12,6 +12,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'], // Make Roboto the default
+        secondary: ['ui-sans-serif', 'system-ui', 'sans-serif'], // For alternative text
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
